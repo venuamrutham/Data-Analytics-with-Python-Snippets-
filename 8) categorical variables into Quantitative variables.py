@@ -9,7 +9,7 @@ from tkinter import filedialog
 root = tk.Tk()
 root.withdraw()
 
-# Open file picker dialogue
+# Open file picker dialog
 file_path = filedialog.askopenfilename()
 
 if file_path:
