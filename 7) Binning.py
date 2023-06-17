@@ -11,7 +11,7 @@ from tkinter.filedialog import askdirectory
 root = tk.Tk()
 root.withdraw()
 
-# Open file picker dialogue
+# Open file picker dialog
 file_path = filedialog.askopenfilename()
 
 if file_path:
