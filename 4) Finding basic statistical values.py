@@ -11,7 +11,7 @@ root = tk.Tk()
 # Withdraw root
 root.withdraw
 
-# Open filepicker dialogue
+# Open filepicker dialog
 file_path = filedialog.askopenfilename()
 
 if file_path:
